@@ -125,7 +125,3 @@ An unweighted graph is a graph where all edges are treated equally, and there is
 
 ---
 
-## Visualization of Graph Types
-
-### **Directed vs. Undirected**
-- Directed:  
