@@ -1,5 +1,4 @@
-# Graph Theory: Comprehensive Guide
-
+# Graph 
 Graphs are fundamental structures in computer science and mathematics, used to represent relationships between entities. This document provides an in-depth look into:
 
 1. **Direct vs. Undirected Graphs**
