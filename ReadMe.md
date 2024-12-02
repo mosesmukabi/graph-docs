@@ -24,6 +24,7 @@ A directed graph is a graph where each edge has a specific direction, going from
   - `u` is the source vertex.
   - `v` is the destination vertex.
 - Arrows are used to indicate the direction of edges.
+[![Digraphs](images/directed.png)](images/directed.png)
 
 #### **Examples**
 1. **Social Media**: A directed graph can model platforms like Twitter, where an edge `(A, B)` indicates that user `A` follows user `B`.
@@ -44,6 +45,8 @@ An undirected graph is a graph where edges have no direction, implying a mutual 
 - Each edge is represented as an **unordered pair** `{u, v}`, meaning:
   - Both `u` and `v` are equally connected.
 - Edges are typically represented as simple lines without arrows.
+
+[![Undirected Graphs](images/undirected.png)](images/undirected.png)
 
 #### **Examples**
 1. **Friendship Networks**: In Facebook, a friendship is mutual; if `A` is connected to `B`, then `B` is also connected to `A`.
@@ -71,6 +74,8 @@ A weighted graph is a graph where each edge has an associated weight or cost.
 - Edges are represented as pairs `(u, v, w)`, where `w` is the weight.
 - Weights can be positive or negative but are typically non-negative in practical applications.
 
+[![Weighted Graphs](images/weighted.png)](images/weighted.png)
+
 #### **Examples**
 1. **Transportation Networks**: 
    - Cities connected by roads, where the weights represent distances or travel times.
@@ -94,6 +99,8 @@ An unweighted graph is a graph where all edges are treated equally, and there is
 #### **Key Properties**
 - Edges are represented as pairs `(u, v)` without weights.
 - Every connection is binary (either it exists or it doesn’t).
+
+[![Unweighted Graphs](images/unweighted.png)](images/unweighted.png)
 
 #### **Examples**
 1. **Social Networks**:
